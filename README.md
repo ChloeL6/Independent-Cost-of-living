@@ -25,17 +25,17 @@ In the original repo, my portion of the project was calculating the recommended 
 
 [<img src="./images/Rec_mortgage_pmt.png" width='700'/>](./images/Rec_mortgage_pmt.png)
 
-On top of that, I also wanted to compare the recommended mortgage payments for different tech jobs in each country. To do that, I found a second dataset called ["./data/tech_salaries.csv"] and merge it to the original one ["./data/cost-of-livings.csv"]. After merged, I sorted the new dataset to show highest and lowest mortgage payments for each job in each countries. 
+On top of that, I also wanted to compare the recommended mortgage payments for different tech jobs in each country. To do that, I found a second dataset called tech_salaries.csv and merge it to the original one cost-of-livings.csv. After merged, I sorted the new dataset to show highest and lowest mortgage payments for each job in each countries. 
 
 For this repo, I added some more graphs for better visualization.
 
 * This is an interactive map shows each country and its mortgage amount
   
-[<img src="./images/marker_map.png" width='700'/>](./images/Rec_mortgage_pmt.png)
+[<img src="./images/marker_map.jpg" width='700'/>](./images/Rec_mortgage_pmt.png)
 
 * Here is another interactive map shows each country, its national mortgage amount, mortgage amount per job title, and the company name in HTML format
 
-[<img src="./images/html_map.png" width='700'/>](./images/Rec_mortgage_pmt.png)
+[<img src="./images/html_map.ipg" width='700'/>](./images/Rec_mortgage_pmt.png)
 
  * Lastly is the scatter plot show recommended mortgage worldwide
 

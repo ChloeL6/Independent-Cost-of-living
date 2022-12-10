@@ -35,7 +35,7 @@ For this repo, I added some more graphs for better visualization.
 
 * Here is another interactive map shows each country, its national mortgage amount, mortgage amount per job title, and the company name in HTML format
 
-[<img src="./images/html_map.ipg" width='700'/>](./images/Rec_mortgage_pmt.png)
+[<img src="./images/html_map.jpg" width='700'/>](./images/Rec_mortgage_pmt.png)
 
  * Lastly is the scatter plot show recommended mortgage worldwide
 

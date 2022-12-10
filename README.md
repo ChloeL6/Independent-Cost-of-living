@@ -1,6 +1,6 @@
-# Global Cost of Living 
+# Independent Global Cost of Living 
 
-#### By Reed Carter, Chloe Le, Phil Kendall
+#### By Chloe Le, Reed Carter Phil Kendall
 
 #### Visualizations of the cost of living around the globe 
 
@@ -15,27 +15,38 @@
 * pycountry
 * mapclassify
 * folium
+* seaborn
 
 ## Description
 
-The main.py file contains numerous lines of code which display various images which indicate the different cost of living across the world. This information can be used to determine the cost of living across the world. A complete repository can be found here: https://github.com/Reed-Carter/Global-Cost-of-Living
+This repo is a copy of the Global Cost of Living that I collaborated with my team. The original copy can be found here: https://github.com/Reed-Carter/Global-Cost-of-Living.git
 
-[<img src="./images/avg_gas_price_per_liter_USD.png" width="700"/>](./images/avg_gas_price_per_liter_USD.png)
+In the original repo, my portion of the project was calculating the recommended mortgage payment in each country and created a world map for visualization. Here is the result:
 
 [<img src="./images/Rec_mortgage_pmt.png" width='700'/>](./images/Rec_mortgage_pmt.png)
 
-[<img src="./images/Countries_with_the_highest_gas_price.png" width ='700'/>](./images/Countries_with_the_highest_gas_price.png)
+On top of that, I also wanted to compare the recommended mortgage payments for different tech jobs in each country. To do that, I found a second dataset called ["./data/tech_salaries.csv"] and merge it to the original one ["./data/cost-of-livings.csv"]. After merged, I sorted the new dataset to show highest and lowest mortgage payments for each job in each countries. 
 
-[<img src="./images/countries_with_the_lowest_gas_price.png" width ='700'/>](./images/countries_with_the_lowest_gas_price.png)
+For this repo, I added some more graphs for better visualization.
 
-[<img src="./images/folium map of avg gas prices.jpg" width ='700'/>](./images/folium map of avg gas prices.jpg)
+* This is an interactive map shows each country and its mortgage amount
+  
+[<img src="./images/marker_map.png" width='700'/>](./images/Rec_mortgage_pmt.png)
+
+* Here is another interactive map shows each country, its national mortgage amount, mortgage amount per job title, and the company name in HTML format
+
+[<img src="./images/html_map.png" width='700'/>](./images/Rec_mortgage_pmt.png)
+
+ * Lastly is the scatter plot show recommended mortgage worldwide
+
+ [<img src="./images/scatter_plot.png" width='700'/>](./images/Rec_mortgage_pmt.png)
 
 
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop
 * Navigate to the top level directory
-* Run 'pip install -r requirements.txt' to install all the requirements so that main.py can run correctly
+* Run 'pip install -r requirements.txt' to install all the requirements so that main.py or other notebooks can run correctly
 * Open main.py
 
 ## Known Bugs
@@ -46,7 +57,7 @@ The main.py file contains numerous lines of code which display various images wh
 
 MIT License
 
-Copyright (c) [2022] [Reed Carter, Chloe Le, Phil Kendall]
+Copyright (c) [2022] [Chloe Le, Reed Carter, Phil Kendall]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
